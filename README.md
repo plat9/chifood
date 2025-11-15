@@ -30,7 +30,7 @@ npm run dev -- --open
 To create a production version of your app:
 
 ```sh
-npm run dev
+npm run build
 ```
 
 You can preview the production build with `npm run preview`.
