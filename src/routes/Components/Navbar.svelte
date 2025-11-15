@@ -1,4 +1,4 @@
-<nav class="fixed top-0 w-full flex text-white justify-center items-center bg-[url($lib/assets/brick.jpg)] z-50">
+<nav class="fixed top-0 w-full flex text-white justify-center items-center bg-red-500 h-24 z-10">
   <a 
     href="/" 
     class="btn bg-red-700 text-gray-200 border-none m-5 hover:bg-red-700 w-[150px] text-center no-underline block"
