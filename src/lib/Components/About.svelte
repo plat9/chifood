@@ -71,11 +71,18 @@
         background-color: #ac0000;
         color: white;
         border: none;
-        border-radius: 3px;;
+        border-radius: 3px;
         font-size: 22px;
         padding: 8px 12px;
         margin-bottom: 12px;
         line-height: 26px;
+        transition: all 0.3s ease;
+    }
+
+    .about__one button:hover {
+        background-color: #900000;
+        transform: scale(1.05);
+        box-shadow: 0 4px 12px rgba(172, 0, 0, 0.4);
     }
 
     .about__one__separator {

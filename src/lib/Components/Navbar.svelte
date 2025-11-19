@@ -1,6 +1,7 @@
 <script>
   import { onMount } from 'svelte';
-  import logo from '$lib/assets/logo.png';
+  import logo from '$lib/assets/logo2.png';
+ 
 
   let menuToggle;
   let navbar;
