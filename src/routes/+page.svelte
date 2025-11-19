@@ -1,12 +1,12 @@
 <script>
-    import Navbar from "./Components/Navbar.svelte";
-    import Footer from "./Components/Footer.svelte";
-    import "../app.css";
-    import Header from "./Components/Header.svelte";
+    import Carousel from "$lib/Components/Carousel.svelte";
+    import Footer from "$lib/Components/Footer.svelte";
+    import Navbar from "$lib/Components/Navbar.svelte";
+    import About from "$lib/Components/About.svelte";
+    import Location from "$lib/Components/location.svelte";
 </script>
 
-<Navbar />
-
-
-
-<Header />
+<Carousel />
+<About />
+<Location />
+<Footer />
