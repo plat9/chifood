@@ -71,8 +71,7 @@
 <style>
     .carousel {
         width: 100%;
-        max-width: 600px;
-        height: 300px;
+        height: 60vh;
         display: flex;
         position: relative;
         overflow-x: scroll;
@@ -80,7 +79,6 @@
         scroll-snap-type: x mandatory;
         anchor-name: --my-carousel;
         scroll-behavior: smooth;
-        margin: 0 auto;
         border-radius: 8px;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
@@ -103,8 +101,7 @@
 
     .carousel-controls {
         position: relative;
-        width: 80%;
-        max-width: 600px;
+        width: 100%;
         margin: 0 auto;
     }
 
@@ -144,17 +141,17 @@
     }
 
     .prev-btn {
-        left: -20px;
+        left: 1rem;
     }
 
     .next-btn {
-        right: -20px;
+        right: 1rem;
     }
 
     @media (max-width: 768px) {
         .carousel {
-            width: 95%;
-            height: 200px;
+            width: 100%;
+            height: 40vh;
         }
         
         .carousel-btn {
@@ -164,11 +161,11 @@
         }
         
         .prev-btn {
-            left: -15px;
+            left: 1rem;
         }
         
         .next-btn {
-            right: -15px;
+            right: 1rem;
         }
     }
 </style>
