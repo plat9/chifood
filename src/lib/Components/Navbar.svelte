@@ -15,12 +15,12 @@
 <nav class="navbar">
   <img src={logo} alt="Logo">
   <ul class="nav-links" class:open={isOpen}>
-    <li><a href="#">Home</a></li>
-    <li><a href="#">Order online</a></li>
-    <li><a href="#">Menu</a></li>
-    <li><a href="#">Location</a></li>
+    <li>Home</li>
+    <li>Order online</li>
+    <li>Menu</li>
+    <li>Location</li>
   </ul>
-  <span class="menu-toggle" on:click={toggleMenu}>&#9776;</span>
+  <button class="menu-toggle" on:click={toggleMenu} aria-label="Menu" aria-expanded={isOpen}>&#9776;</button>
 </nav>
 
 <style>
